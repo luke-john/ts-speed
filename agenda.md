@@ -15,3 +15,7 @@ You can use `ts-ignore` to tell typescript to ignore errors that originate from 
 ## tslint:disable-next-line
 
 You can use `tslint:disable-next-line` to tell tslint to ignore errors on the following line. You can additionally scope this instruction to the paticular linting rule by following it with the rule name, either space or colon seperated (ie. `tslint:disable-next-line:no-any` and `tslint:disable-next-line no-any`)
+
+## tslint:disable
+
+Similar to using `tslint:disable-next-line`, you can use `tslint:disable` to tell tslint to ignore all errors until it reaches a corresponding `tslint:enable`

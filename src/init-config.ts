@@ -1,10 +1,15 @@
+// tslint:disable no-any
+
 declare const global: {
   config: {
     [key: string]: string;
   };
-  // tslint:disable-next-line:no-any
   house: any;
 };
+
+let willBeMutated: any = [];
+
+// tslint:enable no-any
 
 // @ts-ignore
 global.config = {
