@@ -27,3 +27,7 @@ You can use a node style require to import a pacakge without typings, typescript
 ## tsconfig
 
 You can remove one or many strictness rules from your tsconfig while developing to allow compilation.
+
+## ignore errors
+
+By default typescript will still emit, even if you have errors. so you can happily ignore typing errors while doing rapid development (may require webpack setup too ;) ).
