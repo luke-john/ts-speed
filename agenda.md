@@ -19,3 +19,7 @@ You can use `tslint:disable-next-line` to tell tslint to ignore errors on the fo
 ## tslint:disable
 
 Similar to using `tslint:disable-next-line`, you can use `tslint:disable` to tell tslint to ignore all errors until it reaches a corresponding `tslint:enable`
+
+## node style require
+
+You can use a node style require to import a pacakge without typings, typescript will treat it as `any`.

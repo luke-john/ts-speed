@@ -1,11 +1,13 @@
 // tslint:disable no-any
 
-declare const global: {
-  config: {
-    [key: string]: string;
-  };
-  house: any;
-};
+declare namespace NodeJS {
+  interface Global {
+    config: {
+      [key: string]: string;
+    };
+    house: any;
+  }
+}
 
 let willBeMutated: any = [];
 
