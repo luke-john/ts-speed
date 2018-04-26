@@ -2,6 +2,8 @@ declare const global: {
   config: {
     [key: string]: string;
   };
+  // tslint:disable-next-line:no-any
+  house: any;
 };
 
 // @ts-ignore
