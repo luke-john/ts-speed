@@ -1,9 +1,11 @@
 declare const global: {
   config: {
-    [key: string]: string;
+    [key: string]: any;
   };
 };
 
 global.config = {
-  foo: "FOO"
+  foo: "FOO",
+  // we may want to turn this into a string later so it's serializable
+  startUpTime: new Date()
 };
