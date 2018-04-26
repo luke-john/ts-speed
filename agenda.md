@@ -23,3 +23,7 @@ Similar to using `tslint:disable-next-line`, you can use `tslint:disable` to tel
 ## node style require
 
 You can use a node style require to import a pacakge without typings, typescript will treat it as `any`.
+
+## tsconfig
+
+You can remove one or many strictness rules from your tsconfig while developing to allow compilation.
